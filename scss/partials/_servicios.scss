@@ -1,0 +1,22 @@
+.servicios-title {
+  font-weight: $fw-900;
+  color: $clr-khaki;
+  text-align: center;
+  margin-block: 3rem;
+}
+
+.cards-wrapper {
+  display: grid;
+  grid-auto-flow: column;
+  place-content: center;
+  gap: 1rem;
+}
+
+.card-title {
+  font-weight: $fw-900;
+  text-align: center;
+}
+
+.btn {
+  margin-top: 1rem;
+}

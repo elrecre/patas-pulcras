@@ -1,0 +1,79 @@
+.hero-wrapper {
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.left {
+  h1 {
+    font-weight: $fw-900;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    color: $clr-khaki;
+  }
+  p {
+    font-weight: $fw-400;
+    .bold {
+      font-weight: $fw-900;
+    }
+  }
+}
+
+.wrapper {
+  display: flex;
+  margin: 0 auto;
+  img {
+    border-radius: 30%;
+  }
+  .text-container {
+    h2 {
+      font-size: 3rem;
+      margin-block: 2rem;
+      font-weight: $fw-900;
+      color: $clr-khaki;
+    }
+  }
+}
+
+.services-container {
+  ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    li {
+      font-size: 1.5rem;
+      .accent {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.carousel .carousel-item {
+  height: 800px;
+}
+
+.carousel-item img {
+  position: absolute;
+  object-fit: fill;
+  top: 0;
+  left: 0;
+  min-height: 500px;
+}
+
+.testimonios-titulo {
+  margin-block: 4rem;
+  text-align: center;
+  font-size: 3rem;
+  color: $clr-khaki;
+}
+
+.carousel-caption p {
+  font-weight: $fw-900;
+}
+
+.carousel-caption h5 {
+  font-weight: $fw-900;
+}
