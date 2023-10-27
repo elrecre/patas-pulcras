@@ -1,19 +1,20 @@
 .header-container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
-  padding-inline: 2rem;
+  padding: 2rem;
   align-items: center;
   img {
-    height: 150px;
-    width: 150px;
+    height: 70px;
+    width: 70px;
   }
   nav ul {
     display: flex;
-    gap: 5rem;
+    gap: 1rem;
     a {
       color: $clr-black;
-      font-weight: $fw-400;
+      font-weight: $fw-900;
       &:hover {
         border-bottom: 2px solid $clr-brown;
       }

@@ -1,8 +1,9 @@
 .hero-wrapper {
-  max-width: 1400px;
+  max-width: 1200px;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr;
   align-items: center;
+  padding: 2rem;
   margin: 0 auto;
 }
 
@@ -15,6 +16,7 @@
   }
   p {
     font-weight: $fw-400;
+    margin-bottom: 2rem;
     .bold {
       font-weight: $fw-900;
     }
@@ -23,9 +25,12 @@
 
 .wrapper {
   display: flex;
-  margin: 0 auto;
+  flex-direction: column;
+  padding: 2rem;
+  align-items: center;
   img {
-    border-radius: 30%;
+    height: 400px;
+    width: 400px;
   }
   .text-container {
     h2 {
@@ -52,7 +57,7 @@
 }
 
 .carousel .carousel-item {
-  height: 800px;
+  height: 500px;
 }
 
 .carousel-item img {

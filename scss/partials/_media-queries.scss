@@ -1,0 +1,15 @@
+@media (min-width: 1100px) {
+  .hero-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+  .wrapper {
+    flex-direction: row;
+  }
+  .cards-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .sobre-nosotros_hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

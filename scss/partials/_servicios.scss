@@ -6,10 +6,12 @@
 }
 
 .cards-wrapper {
+  max-width: 1200px;
   display: grid;
-  grid-auto-flow: column;
+  grid-template-columns: 1fr;
   place-content: center;
   gap: 1rem;
+  padding: 2rem;
 }
 
 .card-title {
