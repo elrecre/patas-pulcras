@@ -82,3 +82,7 @@
 .carousel-caption h5 {
   font-weight: $fw-900;
 }
+
+.animation {
+  animation: myAnim 2s ease 0s infinite normal forwards;
+}
