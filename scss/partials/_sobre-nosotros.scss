@@ -1,7 +1,8 @@
 .sobre-nosotros_hero {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 2rem;
+  padding: 2rem;
 }
 
 .sobre-nosotros_text {
@@ -18,11 +19,12 @@
 
 .nuestra-historia_container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   align-items: center;
+  padding: 2rem;
   h2 {
     color: $clr-khaki;
     font-weight: $fw-900;
-    margin-bottom: 2rem;
+    margin-block: 2rem;
   }
 }
